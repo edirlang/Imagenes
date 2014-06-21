@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get "/" do 
-	return 'Hola Mundo'
+	erb: index.html.erb
 end
